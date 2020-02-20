@@ -1,0 +1,22 @@
+<phpunit
+	colors="true"
+	bootstrap="tests/bootstrap.php"
+	backupGlobals="false"
+>
+	<php>
+		<env name="APPLICATION_ENV" value="development"/>
+	</php>
+
+	<testsuites>
+		<testsuite name="testbed">
+			<directory prefix="class-test-" suffix=".php">tests</directory>
+		</testsuite>
+	</testsuites>
+
+	<filter>
+		<whitelist>
+			<directory>./inc</directory>
+			<directory>./blocks</directory>
+		</whitelist>
+	</filter>
+</phpunit>

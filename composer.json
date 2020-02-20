@@ -1,0 +1,14 @@
+{
+    "name": "kadamwhite/testbed",
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4",
+        "phpunit/phpunit": "^8.5.0",
+        "10up/wp_mock": "0.4.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.13"
+        }
+    }
+}

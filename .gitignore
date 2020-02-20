@@ -4,3 +4,6 @@ node_modules
 build
 vendor
 coverage
+package-lock.json
+composer.lock
+yarn.lock
