@@ -1,0 +1,6 @@
+*.log
+.phpunit.result.cache
+node_modules
+build
+vendor
+coverage
